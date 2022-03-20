@@ -1,0 +1,88 @@
+body {
+    font-family: 'Overpass', sans-serif;    
+    background: hsl(216, 12%, 8%);
+    color: #fff;
+}
+
+.card-content {
+    width: 28em;
+    height: 27em;
+    padding: 2em;
+    border-radius: 2em;
+    background: hsl(213, 19%, 18%);
+}
+
+.full-card {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.thank_you-image {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.card-text h1 {
+    text-align: center;   
+    margin: 0 0 .67em;
+}
+
+.card-text p {
+    font-size: 1.1em;
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+}
+
+.selection {
+    width: 55%;
+    height: 2.2em;
+    background: hsl(208, 15%, 23%);
+    color: hsl(25, 97%, 53%);
+    padding: 9px;
+    margin: 1.5em auto 2em;
+    text-align: center;
+    border-radius: 1em;
+}
+
+@media (max-width: 575px){
+
+    .card-content {
+        width: 22em;
+    }
+
+    .card-text h1 {
+        margin: .7em 0 .5em;    
+    }
+
+    .card-buttons .btn{
+        margin-right: 1em;
+    }
+
+    .sub {
+        margin-top: 1.8em;
+    }
+
+    .selection {
+        width: 75%;
+    }
+}
+
+@media (max-width: 375px){
+
+    .card-content {
+        width: 20em;
+        height: 26em;
+        padding: 1em;
+    }
+
+    .card-text h1 {
+        margin: .7em 0 .5em;    
+    }
+
+    .card-buttons .btn{
+        margin-right: .25em;
+    }
+
+}
